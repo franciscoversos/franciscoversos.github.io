@@ -1,0 +1,183 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height :1.6em;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #meu-header{
+    flex:1;
+    background: url(https://www.tasteofcinema.com/wp-content/uploads/2015/10/european-art-cinema.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height:200px;
+    text-align: center;
+    padding-top: 40px;
+  }
+  #texto-header{
+    color:white;
+    margin:0;
+    line-height:1.6em;
+    padding-top:30px;
+  }
+  #prime-header{
+    flex:1;
+    background-color:cadetblue;
+    line-height: 1.6em;
+    padding-left: 30px;
+  }
+   .navbar{
+     display: flex;
+     flex-direction: row;
+     background-color: rgba(0, 0, 0, 0.8);
+     position: -webkit-sticky;
+     position: sticky;
+     width:100%;
+     border-bottom: 1px solid white
+  }
+   ul{ 
+   list-style-type: none;
+    margin: 0;
+    padding:10px;
+    float: left;
+    top: 0;
+  }
+  
+  
+  
+  li a {
+    display: block;
+    color:white;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  .headers{
+    font-size: 30px;
+  }
+  aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 10px;
+    float: right;
+    font-style: italic;
+    background-color:gray;
+  }
+  .ss{
+    font-family: sans-serif;
+  }
+  .flexboxd{
+    display: flex;
+    
+  }
+  
+  .imagens-pequenas{
+    width: 100px;
+  }
+  
+  .button{
+    background-color: green;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    height: 40px;
+    border: 2px solid black;
+  }
+  #corpo-site{
+    padding-left:20px
+  }
+  #form-button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width:100px;
+    text-align: center;
+  }
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: coral;
+    color: white;
+  }
+    .BackColourJS{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-content: space-between;
+     background-color: rgba(0, 0, 0, 0.8);
+     width:100%;
+     margin-bottom: 30px;
+    }
+    #GreenButton{
+      background-color: green;
+      color: Black;
+      border: 1px solid black;
+      padding: 8px 16px;
+    }
+    #RedButton{
+      background-color: Red;
+      color: Black;
+      border: 1px solid black;
+      padding: 8px 16px;
+    }
+  #YellowButton{
+      background-color:Yellow;
+      color: Black;
+      border: 1px solid black;
+      padding: 8px 16px;
+    }
+  #WhiteButton{
+      background-color:White;
+      color: Black;
+      border: 1px solid black;
+      padding: 8px 16px;
+    }
+  #CyanButton{
+      background-color: Cyan;
+      color: Black;
+      border: 1px solid black;
+      padding: 8px 16px;
+    }
+    #bckgrndClr{
+      display:inline;
+      color: white;
+      padding-right: 100px;
+      
+  
+    }
+    #offsetSpan{
+      width:150px;
+      height:150px;
+      border:1px solid coral;
+      padding:5px;
+  
+    }
+  
+  #btnAddLi{
+    display: block;
+    border:1px solid rgba(52, 235, 216, 0.5);
+    padding:5px;
+    background-color: coral;
+  }
+  #btnAddLiRem{
+    display: block;
+    border:1px solid rgba(52, 235, 216, 0.5);
+    padding:5px;
+    background-color: coral;
+  
+  }
+  .escondido{
+    visibility: hidden;
+  }
